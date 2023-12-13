@@ -1,0 +1,160 @@
+/* Apply a background color to the whole page */
+body {
+    background-color: rgb(162, 175, 172);
+}
+
+
+.main {
+    width: 80%; /* Adjust the width as needed */
+    margin: 40px auto; /* Center the container horizontally with some top margin */
+    
+}
+
+/* Style the unordered list */
+ul {
+    list-style: none; /* Remove default list styles */
+    overflow: hidden; /* Clear floats inside the list */
+}
+
+/* Style the image */
+ul img {
+    display: block; /* Make the image a block element for proper alignment */
+    float: left; /* Float the image to the left */
+    margin-right: 5px; /* Add some spacing between the image and the navigation */
+}
+
+/* Style the navigation */
+nav {
+    float: inline-end; /* Float the navigation to the left */
+
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 20px; /* Add some spacing between navigation links */
+    color: rgb(15, 48, 15); /* Set the text color */
+    font-weight: bold; /* Make the text bold */
+    font-size: 25px; /* Set the font size */
+    padding: 20px;
+}
+
+.button button {
+    background-color: #127015; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    padding: 10px 15px; /* Add padding to the button */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 17px;
+}
+
+
+/* Responsive styles for screens smaller than 768px */
+@media (max-width: 768px) {
+    .main {
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    ul img {
+        float: none; /* Remove float for the image on smaller screens */
+        margin-bottom: 10px; /* Add some bottom margin for better spacing */
+    }
+
+    nav {
+        float: none; /* Remove float for the navigation on smaller screens */
+        text-align: center; /* Center-align the navigation links */
+    }
+
+    .button {
+        display: block; /* Display the button as a block for full width on smaller screens */
+        margin: 10px auto; /* Center the button horizontally with some top margin */
+    }
+}
+
+.hero-warpper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-left-wapper{
+    max-width: 600px;
+}
+
+.hero-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero-info{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+
+}
+
+.button{
+    text-align: center;
+    margin: 10px;
+   
+}
+
+.section-p1{
+    gap: 2rem;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer.row{
+    margin-bottom: 20px;
+}
+
+
+footer h4{
+    font-size:24px;
+    padding-bottom: 20px;
+}
+
+ 
+footer p{
+    font-size:17px;
+    margin: 0 0 7px 0 ;
+} 
+
+footer a{
+    font-size:17px;
+    text-decoration: none;
+    color: black;
+    margin: 0 0 7px 0 ;
+} 
+
+footer .copyright {
+   width: 100%;
+   text-align: center;
+   padding:20px 100px;
+   background-color: #0b0b0c;
+   color: white;
+}
+
+.contact-box {
+    background-color: rgb(202, 233, 155);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(15, 14, 14, 0.1);
+    padding: 20px;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+}
+
+
